@@ -53,7 +53,7 @@
 			QRcode::png($codeContents,$nomeQRCode, QR_ECLEVEL_L, $tamanhoQRcode);
 			
 			// displaying			
-			echo "<img src='QR_code.026.png' />";
+			echo "<img src='$nomeQRCode' />";
 
 	}
 	   
